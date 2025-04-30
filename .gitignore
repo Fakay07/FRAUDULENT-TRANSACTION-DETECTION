@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 *.pkl
 data/
+notebook/data/creditcard.csv
