@@ -111,3 +111,9 @@ While `.pkl` models are not typically re-trained, XGBoost allows:
 - Further training using raw booster models  
 - Fine-tuning parameters on newer labeled data  
 - Use in pipelines that require model updates or versioning  
+## 📈 Final Results
+
+- ✅ Accuracy: 99.80%
+- ✅ Best Model: Tuned XGBoost
+- ✅ SHAP used for explainability
+- ✅ Model saved as `.model` and usable via `joblib.load()`
