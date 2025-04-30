@@ -76,3 +76,10 @@ To gain trust and ensure transparency in predictions, **SHAP (SHapley Additive e
    ```bash
    git clone https://github.com/IEncryptSaad/FRAUDULENT-TRANSACTION-DETECTION.git
    cd FRAUDULENT-TRANSACTION-DETECTION
+## 🔍 Load Trained Model
+
+To load and use the trained XGBoost fraud detection model:
+
+```python
+import joblib
+model = joblib.load('notebook/xgboost_fraud_model.model')
