@@ -5,3 +5,8 @@ __pycache__/
 *.pkl
 data/
 notebook/data/creditcard.csv
+# Ignore plot outputs if needed
+notebook/plots/
+*.png
+*.jpg
+*.jpeg
