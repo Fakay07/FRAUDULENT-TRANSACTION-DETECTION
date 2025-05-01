@@ -125,3 +125,15 @@ To ensure transparency and interpretability in our fraud detection model, we use
 🔍 Local Attribution (next): SHAP allows drilling into individual predictions to explain why a transaction was flagged as fraud.
 
 ✅ This step enhances stakeholder trust and aligns with responsible AI practices.
+---
+
+## 🖼️ Visualizations (Saved in `notebook/plots/`)
+
+- `transaction_class_distribution.png`: Distribution of fraud vs normal cases
+- `model_comparison_bar.png`: Accuracy, Precision, Recall, F1 of all models
+- `confusion_matrix_plot.png`: 2x2 grid for model-specific confusion matrices
+- `roc_auc_curve.png`: ROC curves of all classifiers
+- `shap_summary_bar.png` & `shap_summary_beeswarm.png`: Global SHAP feature importance
+- `shap_force_plot.png`: Local SHAP force explanation for one prediction
+- `shap_decision_plot.png`: Decision-level influence for top 2000 rows
+- `shap_waterfall_plot.png`: Decomposition of SHAP contributions for one instance
