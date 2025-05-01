@@ -117,3 +117,11 @@ While `.pkl` models are not typically re-trained, XGBoost allows:
 - ✅ Best Model: Tuned XGBoost
 - ✅ SHAP used for explainability
 - ✅ Model saved as `.model` and usable via `joblib.load()`
+🔎 Explainability with SHAP
+To ensure transparency and interpretability in our fraud detection model, we used SHAP (SHapley Additive exPlanations):
+
+📊 Global Importance: A SHAP summary bar plot reveals which features most influence fraud predictions across the entire dataset.
+
+🔍 Local Attribution (next): SHAP allows drilling into individual predictions to explain why a transaction was flagged as fraud.
+
+✅ This step enhances stakeholder trust and aligns with responsible AI practices.
